@@ -7,7 +7,7 @@ caption:
  The brief was to create a 2-5 word phrase about positive world change, for a design competition by Ball & Doggett paper company. The design needed to communicate this message through original typography.
 caption_images_list: 
   - "hyperConnected-1.gif"
-images_folder: "second/assets/images/posts/hyperConnected/"
+images_folder: "/second/assets/images/posts/hyperConnected/"
 images: 
   - "hyperConnected-2.png"
   - "hyperConnected-3.jpg"
