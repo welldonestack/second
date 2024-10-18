@@ -1,0 +1,55 @@
+---
+title: "Works"
+layout: default
+permalink: "/works.html"
+---
+
+<section class="mb-5">
+    <div class="container mb-5">
+        <!-- <h1 class="font-weight-bold title">Categories</h1> -->
+        <div class="row">
+        {% include menu-categories.html %}
+        </div>
+    </div>
+
+
+<div class="container-fluid">
+    <div class="card-columns">
+    {% for category in site.categories %}
+    </div> 
+    
+    <h3 class="mt-5" id="{{ category[0] | downcase }}">{{ category[0] }}</h3><hr>
+    
+    <div class="card-columns">
+
+        {% assign pages_list = category[1] %}
+        {% for post in pages_list %}
+          {% if post.title != null %}
+              {% if group == null or group == post.group %}
+                {% include card-post.html %}
+              {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
+
+    {% endfor %}
+    </div>
+</div>
+    
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const images = document.querySelectorAll(".card img");
+      
+      images.forEach(img => {
+        img.onload = function() {
+          img.classList.add("dissolve");
+        };
+        if (img.complete) {
+          img.classList.add("dissolve");
+        }
+      });
+    });
+  </script>

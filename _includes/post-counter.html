@@ -1,0 +1,13 @@
+{% assign total_posts = 0 %}
+{% assign current_post_index = 0 %}
+
+{% for post in site.posts %}
+    {% assign total_posts = total_posts | plus: 1 %}
+    {% if post.url == page.url %}
+        {% assign current_post_index = forloop.index %}
+    {% endif %}
+{% endfor %}
+
+{% assign current_post_number = current_post_index %}
+
+{{ current_post_number }}

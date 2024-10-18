@@ -1,0 +1,115 @@
+---
+title: "Connecting Dots. Offsetting Thoughts"
+layout: default
+description: "Designing graphic system that evokes conversation."
+---
+<!-- index.html -->
+
+<section class="bg-transparent pt-0 pb-5" style="padding-left: 3px; padding-right: 3px">
+    <div class="container-page">
+
+      <div class="row justify-content-center" style="margin-left: 0; margin-right:0">
+        <div class="mb-5">
+          <img src="{{ site.baseurl }}/assets/images/KiBuisnessIdentity-01-bg.gif">
+        </div>
+      </div>
+
+      <hr>
+      
+      <div class="row justify-content-center" style="margin-left: 0; margin-right:0; margin-top:5rem">
+        <div class="card-columns">
+          {% assign sorted_posts = paginator.posts | sort: 'date' | reverse %}
+          {% for post in sorted_posts %}
+            {% include card-post-index.html %}
+          {% endfor %}
+        </div>
+      </div>
+  
+        <div class="row justify-content-center mt-5">
+          <!-- Pagination links -->
+          {% if paginator.total_pages > 1 %}
+            <div class="pagination"> 
+              {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+              {% else %}
+                <span class="prev">&laquo; Prev</span>
+              {% endif %}
+  
+              {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                  <span class="webjeda">{{ page }}</span>
+                {% elsif page == 1 %}
+                  <a href="{{site.baseurl}}/">{{ page }}</a>
+                {% else %}
+                  <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                {% endif %}
+              {% endfor %}
+
+              {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+              {% else %}
+                <span class="next">Next &raquo;</span>
+              {% endif %}
+            </div>
+          {% endif %}      
+        </div>
+      </div>
+      
+      <!-- <hr> -->
+      
+      <!-- The p5.js sketch container is placed naturally below the card-column -->
+      <!-- <div class="row justify-content-center" style="margin-left: 0; margin-right:0">
+        <div class="mt-5" id="sketch-container">
+          <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+          <script src="tickerText.js"></script>
+        </div>
+      </div> -->
+
+    </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll(".card img");
+    images.forEach(img => {
+      img.onload = function() {
+        img.classList.add("dissolve");
+      };
+      if (img.complete) {
+        img.classList.add("dissolve");
+      }
+    });
+  });
+</script>
+
+<script>
+  // Define a function to load the p5.js sketch
+  function loadSketch() {
+    const script1 = document.createElement('script');
+    script1.src = 'https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js';
+    document.body.appendChild(script1);
+
+    const script2 = document.createElement('script');
+    script2.src = 'tickerText.js'; // Your sketch file
+    document.body.appendChild(script2);
+  }
+
+  // Use Intersection Observer to lazy-load the p5.js sketch when the sketch-container is visible
+  document.addEventListener("DOMContentLoaded", function() {
+    const sketchContainer = document.getElementById("sketch-container");
+
+    // Define the observer
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // If the sketch-container is in view, load the sketch
+          loadSketch();
+          observer.unobserve(entry.target); // Stop observing after loading the sketch
+        }
+      });
+    });
+
+    // Observe the sketch-container
+    observer.observe(sketchContainer);
+  });
+</script>

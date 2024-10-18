@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<section class="bg-white pt-5 pb-5" style="padding-left: 3px; padding-right: 3px;">
+    <div class="container-page">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-4">
+                {% if page.image1 %}
+                    <div class="image-with-caption">
+                        <a href="{{ page.visit }}" target="_blank">
+                            <img id="image1" class="card-img-top mb-2 normal-image" src="{{ page.image1 | absolute_url }}" alt="{{ page.title }}">
+                        </a>
+                        <p class="caption">{{ page.image1_caption }}</p>
+                    </div>
+                {% endif %}
+            </div>
+
+            <!-- Middle Column -->
+            <div class="col-md-4">
+                {% if page.image %}
+                    <img class="card-img-top mb-2" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">
+                {% endif %}
+                
+                <article class="card">
+                    <div class="card-body">
+                        {{ content }}
+                    </div>
+                </article>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-4">
+                {% if page.image2 %}
+                    <img class="card-img-top mb-2" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">
+                {% endif %}
+
+                {% if page.image3 %}
+                    <img id="image2" class="card-img-top mb-2" src="{% if page.image2 contains "://" %}{{ page.image2 }}{% else %}{{ page.image2 | absolute_url }}{% endif %}" alt="{{ page.title }}">
+                    <p class="image-caption">{{ page.image2_caption }}</p>
+                {% endif %}
+                
+                {% if page.image4 %}
+                    <img id="image3" class="card-img-top mb-2" src="{% if page.image3 contains "://" %}{{ page.image3 }}{% else %}{{ page.image3 | absolute_url }}{% endif %}" alt="{{ page.title }}">
+                    <p class="image-caption">{{ page.image3_caption }}</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
