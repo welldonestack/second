@@ -1,6 +1,6 @@
 ---
 layout: about
-title: "About"
+title: "about"
 permalink: "/about.html"
 #image: /path/to/image.jpg
 image1: "/assets/images/Page/About/memoji_motion_05.gif"

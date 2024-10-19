@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: "Contact"
+title: "contact"
 permalink: "/contact.html"
 image: "/assets/images/Page/Contact/PublicDomain-Activity-HorseRiding-02.jpg"
 #image1: /path/to/image1.jpg
