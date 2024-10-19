@@ -1,7 +1,7 @@
 ---
 title:  "BALL & DOGGETT DESIGN CONTEST"
 metadate: "hide"
-categories: Typography
+categories: typography
 image: "hyperConnected-0.jpg"
 caption: 
  The brief was to create a 2-5 word phrase about positive world change, for a design competition by Ball & Doggett paper company. The design needed to communicate this message through original typography.
