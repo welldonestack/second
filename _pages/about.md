@@ -16,11 +16,11 @@ visit: "https://www.instagram.com/welldonestack"
 ---
 
 <h1 class="display-1 font-weight-normal">
-                    Designing graphic system that evokes conversation 
+                    Connecting dots. Offsetting thoughts.
                 </h1>
 
 <h1 class="caption-text">
-He believes that wherever the audience meets the product, it becomes a ground for conversation. He approaches graphic design as a system meant to endure.</h1>
+He will help craft a compelling story that resonates with your audience, creating a lasting impact.</h1>
 
 <br>
 <a class="btn btn-trans" href="https://github.com/wowthemesnet/template-pintereso-bootstrap-jekyll/archive/master.zip"><i class="fa fa-download"></i> resume</a> 
