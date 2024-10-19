@@ -22,7 +22,7 @@ function setup() {
     20,
     "Length"
   );
-  lineWeightSlider = new Slider(1, 4, 4, 0.1, 100, 240, "Offset");
+  lineWeightSlider = new Slider(0.5, 3, 3, 0.1, 100, 240, "Offset");
   offsetSlider = new Slider(0, 40, 0, 0.1, 100, 240, "Offset");
   angleItopSlider = new Slider(0, 60, 0, 0.01, 100, 270, "Angle Itop");
   angleIbottomSlider = new Slider(0, 60, 0, 0.01, 100, 300, "Angle Ibottom");
@@ -78,7 +78,7 @@ function draw() {
 const config = {
   length: {
     windowWidths: [50, 100, 150, 200],
-    values: [10, 20]
+    values: [10, 15]
   },
 
   scroll: {
@@ -97,11 +97,11 @@ function updateSlidersFromScroll() {
 
 // Update lineWeight
   if (scrollPercentage <= 0.33) {
-    lineWeightSlider.slider.value(map(scrollPercentage, 0, 0.33, 4, 4));
+    lineWeightSlider.slider.value(map(scrollPercentage, 0, 0.33, 3, 3));
   } else if (scrollPercentage <= 0.66) {
-    lineWeightSlider.slider.value(map(scrollPercentage, 0.33, 0.66, 4, 1));
+    lineWeightSlider.slider.value(map(scrollPercentage, 0.33, 0.66, 3, 0.5));
   } else {
-    lineWeightSlider.slider.value(1);
+    lineWeightSlider.slider.value(0.5);
   }
 
   // Update angleItopSlider
