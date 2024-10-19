@@ -78,7 +78,7 @@ function draw() {
 const config = {
   length: {
     windowWidths: [50, 100, 150, 200],
-    values: [14, 20]
+    values: [10, 20]
   },
 
   scroll: {
