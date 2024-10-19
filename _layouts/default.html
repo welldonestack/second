@@ -157,12 +157,12 @@
             const container = document.getElementById('logo-sketch-container');
             const fallbackLogo = container.querySelector('.fallback-logo');
             
-            // Show fallback logo if sketch fails to load after 4 seconds
+            // Show fallback logo if sketch fails to load after 9 seconds
             const timeout = setTimeout(() => {
                 if (!container.querySelector('canvas')) {
                     fallbackLogo.style.display = 'block';
                 }
-            }, 4000);
+            }, 9000);
 
             // If sketch loads successfully, hide fallback logo
             const observer = new MutationObserver((mutations) => {
