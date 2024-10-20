@@ -42,17 +42,17 @@ layout: default
           {% if image_count > 1 %}
             <div id="slider3" class="ideal-image-slider iis-effect-slide">
               {% for image in page.images %}
-                <a data-src="{{ page.images_folder }}{{ image }}" class="iis-slide">
-                  <img src="{{ page.images_folder }}{{ image }}" alt="Slide {{ forloop.index }}" class="slider-img"/>
+                <a data-src="{{ site.baseurl }}{{ page.images_folder }}{{ image }}" class="iis-slide">
+                  <img src="{{ site.baseurl }}{{ page.images_folder }}{{ image }}" alt="Slide {{ forloop.index }}" class="slider-img"/>
                 </a>
               {% endfor %}
             </div>
           {% else %}
-            <img class="card-img" src="{{ page.images_folder }}{{ page.images[0] }}" alt="Single Image" loading="lazy">
+            <img class="card-img" src="{{ site.baseurl }}{{ page.images_folder }}{{ page.images[0] }}" alt="Single Image" loading="lazy">
           {% endif %}
         {% else %}
           {% if page.image %}
-            <img class="card-img" src="{{ page.image | absolute_url }}" alt="{{ page.title }}" loading="lazy">
+            <img class="card-img" src="{{ site.baseurl }}{{ page.image | absolute_url }}" alt="{{ page.title }}" loading="lazy">
           {% endif %}
         {% endif %}
           
@@ -77,12 +77,12 @@ layout: default
             {% if page.caption_images_list %}
               {% assign image_count = page.caption_images_list | size %}
               {% if image_count == 1 %}
-                <img src="{{ page.images_folder }}{{ page.caption_images_list[0] }}" alt="Caption Image" class="img-fluid mb-3" loading="lazy">
+                <img src="{{ site.baseurl }}{{ page.images_folder }}{{ page.caption_images_list[0] }}" alt="Caption Image" class="img-fluid mb-3" loading="lazy">
               {% else %}
                 <div id="caption-slider" class="ideal-image-slider iis-effect-slide">
                   {% for image in page.caption_images_list %}
-                    <a data-src="{{ page.images_folder }}{{ image }}" class="iis-slide">
-                      <img src="{{ page.images_folder }}{{ image }}" alt="Caption Image {{ forloop.index }}" class="slider-img"/>
+                    <a data-src="{{ site.baseurl }}{{ page.images_folder }}{{ image }}" class="iis-slide">
+                      <img src="{{ site.baseurl }}{{ page.images_folder }}{{ image }}" alt="Caption Image {{ forloop.index }}" class="slider-img"/>
                     </a>
                   {% endfor %}
                 </div>
