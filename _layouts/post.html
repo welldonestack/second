@@ -4,12 +4,16 @@ layout: default
 
 <head>
   <!-- Other head elements -->
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ideal-image-slider/1.5.1/ideal-image-slider.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ideal-image-slider/1.5.1/themes/default/default.css">
 </head>
 
 <body>
+  {% raw %}{% assign img_base = page.images_folder %}
+  {% if jekyll.environment == "production" %}
+    {% assign img_base = site.baseurl | append: page.images_folder %}
+  {% endif %}{% endraw %}
+
   <section class="bg-transparent pt-10 pb-5" style="padding-left: 3px; padding-right: 3px;">
     <div class="container">
       <div class="mt-10 mb-10"></div>
@@ -20,41 +24,41 @@ layout: default
           <!-- Post Title and Categories -->
           <div class="d-flex justify-content-between align-items-center mb-3">
             <div class="d-flex justify-content-center align-items-center rounded-circle" style="width: 23px; height: 23px; background-color: black; font-size: 9px;">
-              <span class="text-white">{% include post-counter.html %}</span>
+              <span class="text-white">{% raw %}{% include post-counter.html %}{% endraw %}</span>
             </div>
             <div>
-              {% for category in page.categories %}
+              {% raw %}{% for category in page.categories %}
               <a class="btn btn-sm btn-trans" style="font-style: normal" href="{{ site.baseurl }}/works.html#{{ category | downcase }}">
                 <span class="special-char">#</span>{{ category }}
               </a>
-              {% endfor %}
+              {% endfor %}{% endraw %}
             </div>
           </div>
           
           <div class="col-md-8"></div>
           <hr>
-          <h1 class="display-1 font-weight-normal">{{ page.title }}</h1>
+          <h1 class="display-1 font-weight-normal">{% raw %}{{ page.title }}{% endraw %}</h1>
           <hr>
           
           <!-- Main Image Slider -->
-          {% if page.images %}
-          {% assign image_count = page.images | size %}
-          {% if image_count > 1 %}
-            <div id="slider3" class="ideal-image-slider iis-effect-slide">
-              {% for image in page.images %}
-                <a data-src="{{ page.images_folder }}{{ image }}" class="iis-slide">
-                  <img src="{{ page.images_folder }}{{ image }}" alt="Slide {{ forloop.index }}" class="slider-img"/>
-                </a>
-              {% endfor %}
-            </div>
+          {% raw %}{% if page.images %}
+            {% assign image_count = page.images | size %}
+            {% if image_count > 1 %}
+              <div id="slider3" class="ideal-image-slider iis-effect-slide">
+                {% for image in page.images %}
+                  <a data-src="{{ img_base }}{{ image }}" class="iis-slide">
+                    <img src="{{ img_base }}{{ image }}" alt="Slide {{ forloop.index }}" class="slider-img"/>
+                  </a>
+                {% endfor %}
+              </div>
+            {% else %}
+              <img class="card-img" src="{{ img_base }}{{ page.images[0] }}" alt="Single Image" loading="lazy">
+            {% endif %}
           {% else %}
-            <img class="card-img" src="{{ page.images_folder }}{{ page.images[0] }}" alt="Single Image" loading="lazy">
-          {% endif %}
-        {% else %}
-          {% if page.image %}
-            <img class="card-img" src="{{ page.image | absolute_url }}" alt="{{ page.title }}" loading="lazy">
-          {% endif %}
-        {% endif %}
+            {% if page.image %}
+              <img class="card-img" src="{{ img_base }}{{ page.image }}" alt="{{ page.title }}" loading="lazy">
+            {% endif %}
+          {% endif %}{% endraw %}
           
         </div>
       </div>
@@ -66,50 +70,48 @@ layout: default
             <div class="col-md-12 col-sm-6">
               <!-- Caption Text -->
               <div class="caption-text">
-                <p>{{ page.caption }}</p>
+                <p>{% raw %}{{ page.caption }}{% endraw %}</p>
               </div>
             </div>
 
-
-
-        <div class="col-lg-12 col-sm-6 mb-3">
-          <div class="caption-text">
-            {% if page.caption_images_list %}
-              {% assign image_count = page.caption_images_list | size %}
-              {% if image_count == 1 %}
-                <img src="{{ page.images_folder }}{{ page.caption_images_list[0] }}" alt="Caption Image" class="img-fluid mb-3" loading="lazy">
-              {% else %}
-                <div id="caption-slider" class="ideal-image-slider iis-effect-slide">
-                  {% for image in page.caption_images_list %}
-                    <a data-src="{{ page.images_folder }}{{ image }}" class="iis-slide">
-                      <img src="{{ page.images_folder }}{{ image }}" alt="Caption Image {{ forloop.index }}" class="slider-img"/>
-                    </a>
-                  {% endfor %}
-                </div>
-              {% endif %}
-            {% endif %}
+            <div class="col-lg-12 col-sm-6 mb-3">
+              <div class="caption-text">
+                {% raw %}{% if page.caption_images_list %}
+                  {% assign image_count = page.caption_images_list | size %}
+                  {% if image_count == 1 %}
+                    <img src="{{ img_base }}{{ page.caption_images_list[0] }}" alt="Caption Image" class="img-fluid mb-3" loading="lazy">
+                  {% else %}
+                    <div id="caption-slider" class="ideal-image-slider iis-effect-slide">
+                      {% for image in page.caption_images_list %}
+                        <a data-src="{{ img_base }}{{ image }}" class="iis-slide">
+                          <img src="{{ img_base }}{{ image }}" alt="Caption Image {{ forloop.index }}" class="slider-img"/>
+                        </a>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                {% endif %}{% endraw %}
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
         
         <div class="col-md-8">
           <br><hr>
           <article class="card">
             <div class="card-body">
-              {{ content }}
+              {% raw %}{{ content }}{% endraw %}
             </div>
           </article>
 
           <div class="table-responsive" style="margin-bottom: 0 !important;">
             <table class="table caption-text table-bottom-border">
               <tbody>
-                {% for row in page.table_data %}
+                {% raw %}{% for row in page.table_data %}
                 <tr>
                   <td>{{ row.title }}</td>
                   <td>{{ row.value }}</td>
                 </tr>
-                {% endfor %}
+                {% endfor %}{% endraw %}
               </tbody>
             </table>   
           </div>
@@ -121,7 +123,7 @@ layout: default
         <div class="col-md-3"></div>
         <div class="col-md-8">
           <div class="PageNavigation">
-            {% if page.next.url %}
+            {% raw %}{% if page.next.url %}
             <a class="prev" href="{{ site.baseurl }}{{ page.next.url }}">←</a>
             {% else %}
             <span class="prev placeholder"> </span>
@@ -130,7 +132,7 @@ layout: default
             <a class="next" href="{{ site.baseurl }}{{ page.previous.url }}">→</a>
             {% else %}
             <span class="next placeholder"> </span>
-            {% endif %}
+            {% endif %}{% endraw %}
           </div>
         </div>
       </div>
