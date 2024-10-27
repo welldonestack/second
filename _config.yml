@@ -3,8 +3,8 @@ name: 'Ki'
 description: "Designing coversation."
 logo: 'assets/images/logo/logo.png'
 favicon: 'assets/images/favicon.ico'
-# baseurl: ''
-baseurl: '/second'
+url: 'https://ki-c.com' 
+baseurl: ''
 email: "xblrlykp"
 
 include: ["_pages"]

@@ -7,7 +7,7 @@
                 <a href="{{site.baseurl}}{{post.url}}" class="overlay-link"></a>
             </div>
             <a href="{{site.baseurl}}{{post.url}}">
-                <img class="card-img" src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ site.baseurl }}{{ post.images_folder }}{{ post.image }}{% endif %}" alt="{{ post.title }}" loading="lazy">
+                <img class="card-img" src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ post.images_folder }}{{ post.image }}{% endif %}" alt="{{ post.title }}" loading="lazy">
             </a>
         </div>
         
