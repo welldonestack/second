@@ -197,7 +197,7 @@ hr {
 /* change here to change the menu-hover color*/
 .navbar-nav .nav-item .nav-link:hover,
 .navbar-nav .nav-item .dropdown-item:hover {
-  color: #000 !important;
+  color: rgb(0,0,200) !important;
   /* Force the desired hover color */
 }
 
@@ -332,7 +332,6 @@ h4 {
 h5 {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
-  font-style: italic;
   font-size: 1.5rem;
 }
 
@@ -590,9 +589,9 @@ footer.footer {
 .btn-trans:hover {
   background-color: #ffffff;
   /* White background */
-  color: #000000;
+  color: rgb(0,0,200);
   /* Black text color */
-  border: 1px solid #D3D3D3;
+  border: 1px solid rgb(0,0,200);
   /* Add a 1px solid border with LightGray color */
 }
 
@@ -725,7 +724,7 @@ footer.footer {
 
 }
 .PageNavigation a:hover {
-  color: #333;
+  color: rgb(0,0,200);
 }
 
 a.prev {
@@ -751,7 +750,7 @@ a.next {
 }
 
 .PageNavigation a.page-up:hover {
-  color: #333; /* Text color on hover */
+  color: rgb(0,0,200); /* Text color on hover */
   background-color: #f1f1f1; /* Background color on hover */
 }
 
