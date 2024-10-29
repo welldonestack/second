@@ -580,7 +580,7 @@ footer.footer {
   border: 3px solid rgb(0,0,200); /* LightGray border */
   text-decoration: none !important; /* Remove underline */
   font-style: italic;
-  padding: 5px 13px; /* Adjust padding as needed */
+  padding: 3px 13px; /* Adjust padding as needed */
   border-radius: 9999px; /* Makes the corners rounded */
   display: inline-block; /* Ensures the element behaves like a button */
 }
