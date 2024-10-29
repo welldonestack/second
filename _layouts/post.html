@@ -23,7 +23,7 @@ layout: default
             </div>
             <div>
               {% for category in page.categories %}
-              <a class="btn btn-sm btn-trans" style="font-style: normal" href="{{ '/works.html#' | append: category | downcase | relative_url }}">
+              <a class="btn btn-sm btn-trans" href="{{ '/works.html#' | append: category | downcase | relative_url }}">
                 <span class="special-char">#</span>{{ category }}
               </a>
               {% endfor %}

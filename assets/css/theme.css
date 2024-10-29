@@ -408,7 +408,7 @@ footer.footer {
 }
 
 .card-body a:hover {
-  color: #000;
+  color: rgb(0,0,200);
   /* Hover link color */
   text-decoration: none;
   /* Optional: add underline on hover */
@@ -491,7 +491,7 @@ footer.footer {
 }
 
 .card-pin:hover .card-title {
-  color: #000;
+  color: rgb(0,0,200);
   transition: ease .2s;
 }
 
@@ -575,23 +575,22 @@ footer.footer {
 }
 
 .btn-trans {
-  background-color: #ffffff;
-  /* White background */
-  color: #D3D3D3;
-  /* LightGray text color */
-  border: 1px solid #D3D3D3;
-  /* Add a 1px solid border with LightGray color */
-  text-decoration: none !Important;
-  /* Remove underline */
-  font-style:italic;
+  background-color: #ffffff; /* White background */
+  color: rgb(0,0,200); /* LightGray text color */
+  border: 3px solid rgb(0,0,200); /* LightGray border */
+  text-decoration: none !important; /* Remove underline */
+  font-style: italic;
+  padding: 5px 13px; /* Adjust padding as needed */
+  border-radius: 9999px; /* Makes the corners rounded */
+  display: inline-block; /* Ensures the element behaves like a button */
 }
 
 .btn-trans:hover {
-  background-color: #ffffff;
+  background-color: rgb(0,0,200);
   /* White background */
-  color: rgb(0,0,200);
+  color: #ffffff;
   /* Black text color */
-  border: 1px solid rgb(0,0,200);
+  border: 3px solid rgb(0,0,200);
   /* Add a 1px solid border with LightGray color */
 }
 
