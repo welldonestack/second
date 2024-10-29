@@ -23,5 +23,5 @@ visit: "https://www.instagram.com/welldonestack"
 He will help craft a compelling story that resonates with your audience, creating a lasting impact.</h1>
 
 <br>
-<a class="btn btn-trans" href="https://github.com/wowthemesnet/template-pintereso-bootstrap-jekyll/archive/master.zip"><i class="fa fa-download"></i> resume</a> 
+<!-- <a class="btn btn-trans" href="https://github.com/wowthemesnet/template-pintereso-bootstrap-jekyll/archive/master.zip"><i class="fa fa-download"></i> resume</a>  -->
 <a class="btn btn-trans" href="{{site.baseurl}}/contact.html"><i class="fa fa-envelope"></i> contact</a> 
