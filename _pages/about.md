@@ -3,7 +3,7 @@ layout: about
 title: "about"
 permalink: "/about.html"
 #image: /path/to/image.jpg
-image1: "/assets/images/Page/About/memoji_motion_05.gif"
+image1: "/assets/images/Page/About/memoji_motion_06.gif"
 image1_caption: "<em><strong>Ki-One Yoon</strong></em> <br> graphic designer"
 #image2: /path/to/image2.jpg
 #image2_caption: "Image 2 caption"
@@ -16,7 +16,7 @@ visit: "https://www.instagram.com/welldonestack"
 ---
 
 <h1 class="display-1 font-weight-normal">
-                    Connecting dots. Offsetting thoughts.
+                    Connecting<br>dots.<br>&nbsp;&nbsp;&nbsp;&nbsp;Offsetting<br>thoughts.
                 </h1>
 
 <h1 class="caption-text">
