@@ -20,8 +20,8 @@ visit: "https://www.instagram.com/welldonestack"
                 </h1>
 
 <h1 class="caption-text">
-I am Ki, from Seoul. I am currently studying Graphic Design in Sydney. I am interested in transformation based visual systems. My work often deploys "creative coding" as a tool. I will help craft a compelling story that resonates with your audience, creating a lasting impact.</h1>
+Hello, I’m Ki from Seoul, currently studying Graphic Design in Sydney. My passion lies in creating transformation-based visual systems that connect dots in unexpected ways. I often use creative coding to develop dynamic, interactive designs. My goal is to help craft stories that resonate deeply with audiences, leaving a lasting impact.</h1>
 
 <br>
 <!-- <a class="btn btn-trans" href="https://github.com/wowthemesnet/template-pintereso-bootstrap-jekyll/archive/master.zip"><i class="fa fa-download"></i> resume</a>  -->
-<a class="btn btn-trans" href="{{site.baseurl}}/contact.html"><i class="fa fa-envelope"></i> contact</a> 
+<a class="btn btn-trans" href="{{site.baseurl}}/contact.html"> let's talk</a> 

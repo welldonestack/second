@@ -27,9 +27,9 @@ Please send your message to {{site.name}}.
     <input class="form-control" type="text" name="name" placeholder="Name" required>
     </div>
     <div class="col-md-6">
-    <input class="form-control" type="email" name="_replyto" placeholder="Your E-mail Address" required>
+    <input class="form-control" type="email" name="_replyto" placeholder="Your e-mail address" required>
     </div>
     </div>
-    <textarea rows="6" class="form-control mb-3" name="message" placeholder="Message" required></textarea>    
+    <textarea rows="6" class="form-control mb-3" name="message" placeholder="" required></textarea>    
     <input class="btn btn-trans" type="submit" value="send">
 </form>
