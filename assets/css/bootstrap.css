@@ -448,7 +448,7 @@ mark,
 
 /* line 84, node_modules/bootstrap/scss/_type.scss */
 .list-unstyled {
-  padding-left: 0;
+  padding-left: 5px;
   list-style: none; }
 
 /* line 89, node_modules/bootstrap/scss/_type.scss */

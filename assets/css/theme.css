@@ -36,6 +36,14 @@ hr {
   padding-left: 0px;
 }
 
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-style: solid;
+  border-width: 0 0 1px 0; /* Only bottom border */
+  border-color: #e5e5e5;
+}
+
 .mt-min {
   margin-top: 0.2rem !important;
 }
@@ -663,7 +671,6 @@ h5 {
 }
 
 .PageNavigation {
-  margin-top: 3rem;
   display: flex;
   justify-content: space-between;
 }
