@@ -1,5 +1,5 @@
 ---
-title:  "BALL & DOGGETT DESIGN CONTEST"
+title:  "AWARDED IN THE BALL & DOGGETT DESIGN CONTEST"
 metadate: "hide"
 categories: typography
 image: "hyperConnected-0.jpg"
@@ -17,8 +17,8 @@ table_data:
     value: "Adobe Illustrator, Photoshop"
   - title: "Fonts Used"
     value: "Custom typography based on Owen Pro Family"
-  - title: "Extra Info"
-    value: "Selected as one of the winner for 2024 BJ Ball/Ball & Doggett GSM Student Design contest" 
+  - title: "Award"
+    value: "Selected as one of the winners for 2024 BJ Ball/Ball & Doggett GSM Student Design contest" 
 ---
 #### The typography reflects evolving connections between people influenced by augmented reality, symbolized by interconnected veins. Speech bubbles in negative space are as important as the words, seamlessly integrating elements in hyper-connected contexts. Teal type nods to nostalgic DOS aesthetics, while an orange background emphasizes technological advancements leading to a better future.
 
