@@ -104,14 +104,15 @@
         {{ content }}        
     </main>
 
+    
     <!-- Footer -->
-    <footer class="footer">     
-        <div class="socials-media">   
-            <ul class="list-unstyled">
+    <footer class="footer">
+        <div class="footer-cap">
+            <div class="cap-content d-flex align-items-center justify-content-between">
                 {% include footer-social.html %}
-            </ul>    
+                {% include footer-copyright.html %}
+            </div>
         </div>
-        {% include footer-copyright.html %}
     </footer>
 
     <!-- JavaScript Dependencies -->

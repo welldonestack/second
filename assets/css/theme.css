@@ -361,18 +361,13 @@ h5 {
   border-bottom: 1px solid #f1f1f1;
 }
 
-/* footer.footer {
-  border-top: 20px solid rgb(0,0,200);
-} */
-
 .footer {
   position: relative;
   padding-top: 3rem;
   margin-top: 1rem;
 }
 
-.footer::before {
-  content: "";
+.footer-cap {
   position: absolute;
   top: 0;
   left: 50%;
@@ -381,6 +376,32 @@ h5 {
   height: 30px;
   background-color: #D3D3D3;
   border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.cap-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 12px;
+  color: #666;
+}
+
+.social-link {
+  color: #666;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #333;
+}
+
+.license-text {
+  text-align: right;
 }
 
 .footer-content {
