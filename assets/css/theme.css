@@ -2,6 +2,7 @@
 :root {
   --ki-color: rgb(0,0,200);
   /* Define the custom color variable */
+  --baseline-grid: 2.3rem; /* Adjust this value as needed */
 }
 
 hr {
@@ -52,10 +53,11 @@ tr {
   color: #696969;
   max-width: 220px;
   position: relative;
-  font-size: small;
+  font-size: calc(var(--baseline-grid)/3.3);
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 500;
-  line-height: 1.5 !important;
+  margin-top: 0;
+  line-height: calc(var(--baseline-grid)/2.2);
   font-style: normal;
 }
 
@@ -270,7 +272,6 @@ body {
 }
 
 article h1,
-article,
 article h4,
 article h5,
 article h6 {
@@ -429,6 +430,15 @@ h5 {
   font-style: italic;
   padding-top: 0px !important;
   padding-bottom: 0px !important;
+  margin-top: 0;
+  line-height: var(--baseline-grid);
+}
+
+.card-body h4 {
+  margin: 0;
+  padding: 0;
+  line-height: var(--baseline-grid);
+  margin-bottom: var(--baseline-grid);
 }
 
 /* Post - Body - Link */

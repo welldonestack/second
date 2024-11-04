@@ -2,7 +2,7 @@
 title:  "BRAND REFRESH FOR GELATERIA COW & THE MOON"
 metadate: "hide"
 categories: identity
-image: "cow-and-the-moon-1.png"
+image: "cow-and-the-moon-10.gif"
 caption: 
   The brand refresh for Cow & The Moon, Australia's most famous gelateria, aimed to reflect the brand's core values and market positioning. The challenge was to highlight the family-owned nature, legacy, and authenticity of their gelato, which is positioned as a small luxury. 
 caption_images_list: 
