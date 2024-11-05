@@ -9,13 +9,14 @@ layout: default
 </head>
 
 <body>
-  <section class="bg-transparent pt-10 pb-5" style="padding-left: 3px; padding-right: 3px;">
+  <section class="bg-transparent pb-5" style="padding-left: 3px; padding-right: 3px;">
     <div class="container">
       <div class="mt-10 mb-10"></div>
       
+      <!-- First row: Post Title and Categories -->
       <div class="row justify-content-center">
         <div class="col-md-3"></div>
-        <div class="col-md-8">
+        <div class="col-md-12 col-lg-12">  <!-- Made wider with col-lg-9 -->
           <!-- Post Title and Categories -->
           <div class="d-flex justify-content-between align-items-center mb-2">
             <div class="d-flex justify-content-center align-items-center rounded-circle" style="width: 25px; height: 25px; background-color: black; font-size: 12px;">
@@ -30,7 +31,6 @@ layout: default
             </div>
           </div>
           
-          <div class="col-md-8"></div>
           <hr>
           <h1 class="display-1 font-weight-normal">{{ page.title }}</h1>
           <hr>
@@ -58,6 +58,7 @@ layout: default
         </div>
       </div>
       
+      <!-- Second row: Caption and Article -->
       <div class="row justify-content-center">
         <div class="col-md-3" style="padding-right: 15px !important;">
           <br><hr>
@@ -69,28 +70,28 @@ layout: default
               </div>
             </div>
 
-        <div class="col-lg-12 col-sm-6">
-          <div class="caption-text">
-            {% if page.caption_images_list %}
-              {% assign image_count = page.caption_images_list | size %}
-              {% if image_count == 1 %}
-                <img src="{{ page.images_folder | append: page.caption_images_list[0] | relative_url }}" alt="Caption Image" class="img-fluid mb-3" loading="lazy">
-              {% else %}
-                <div id="caption-slider" class="ideal-image-slider iis-effect-slide">
-                  {% for image in page.caption_images_list %}
-                    <a data-src="{{ page.images_folder | append: image | relative_url }}" class="iis-slide">
-                      <img src="{{ page.images_folder | append: image | relative_url }}" alt="Caption Image {{ forloop.index }}" class="slider-img"/>
-                    </a>
-                  {% endfor %}
-                </div>
-              {% endif %}
-            {% endif %}
+            <div class="col-lg-12 col-sm-6">
+              <div class="caption-text">
+                {% if page.caption_images_list %}
+                  {% assign image_count = page.caption_images_list | size %}
+                  {% if image_count == 1 %}
+                    <img src="{{ page.images_folder | append: page.caption_images_list[0] | relative_url }}" alt="Caption Image" class="img-fluid mb-3" loading="lazy">
+                  {% else %}
+                    <div id="caption-slider" class="ideal-image-slider iis-effect-slide">
+                      {% for image in page.caption_images_list %}
+                        <a data-src="{{ page.images_folder | append: image | relative_url }}" class="iis-slide">
+                          <img src="{{ page.images_folder | append: image | relative_url }}" alt="Caption Image {{ forloop.index }}" class="slider-img"/>
+                        </a>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                {% endif %}
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
         
-        <div class="col-md-8">
+        <div class="col-md-9 col-lg-9">  <!-- Made wider with col-lg-9 -->
           <br><hr>
           <article class="card">
             <div class="card-body">
@@ -113,24 +114,24 @@ layout: default
         </div>
       </div>
 
-      <!-- Navigation -->
+      <!-- Navigation row -->
       <div class="row justify-content-center">
         <div class="col-md-3"></div>
-        <div class="col-md-8">
+        <div class="col-md-9 col-lg-9">  <!-- Made wider with col-lg-9 -->
           <div class="PageNavigation">
             {% if page.next.url %}
-            <a class="prev" href="{{ page.next.url | relative_url }}">
+              <a class="prev" href="{{ page.next.url | relative_url }}">
                 <i class="fas fa-arrow-circle-left"></i>
-            </a>
+              </a>
             {% else %}
-                <span class="prev placeholder"> </span>
+              <span class="prev placeholder"> </span>
             {% endif %}
             {% if page.previous.url %}
-                <a class="next" href="{{ page.previous.url | relative_url }}">
-                    <i class="fas fa-arrow-circle-right"></i>
-                </a>
+              <a class="next" href="{{ page.previous.url | relative_url }}">
+                <i class="fas fa-arrow-circle-right"></i>
+              </a>
             {% else %}
-                <span class="next placeholder"> </span>
+              <span class="next placeholder"> </span>
             {% endif %}
           </div>
         </div>
