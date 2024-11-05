@@ -9,14 +9,10 @@ caption_images_list:
   - "cow-and-the-moon-2.png"
 images_folder: "/assets/images/posts/cow-and-the-moon/"
 images:
-  - "cow-and-the-moon-5.png"
-  - "cow-and-the-moon-6.jpg"
-  - "cow-and-the-moon-7.png"
   - "cow-and-the-moon-10.gif"
-  - "cow-and-the-moon-4.png"
+  - "cow-and-the-moon-2.gif"
+  - "cow-and-the-moon-3.gif"
   - "cow-and-the-moon-11.gif"
-  - "cow-and-the-moon-3.png"
-  - "cow-and-the-moon-9.png"
 
 
 table_data:
