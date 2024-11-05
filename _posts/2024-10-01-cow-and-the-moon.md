@@ -10,8 +10,8 @@ caption_images_list:
 images_folder: "/assets/images/posts/cow-and-the-moon/"
 images:
   - "cow-and-the-moon-10.gif"
-  - "cow-and-the-moon-2.gif"
-  - "cow-and-the-moon-33.gif"
+  - "cow-and-the-moon-22.gif"
+  - "cow-and-the-moon-3.gif"
   - "cow-and-the-moon-11.gif"
 
 
