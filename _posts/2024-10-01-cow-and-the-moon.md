@@ -1,10 +1,10 @@
 ---
-title:  "BRAND REFRESH FOR GELATERIA COW & THE MOON"
+title:  "COW & MOON BRAND REFRESH"
 metadate: "hide"
 categories: identity
 image: "cow-and-the-moon-10.gif"
 caption: 
-  The brand refresh for Cow & The Moon, Australia's most famous gelateria, aimed to reflect the brand's core values and market positioning. The challenge was to highlight the family-owned nature, legacy, and authenticity of their gelato, which is positioned as a small luxury. 
+  Revitalize an Italian gelateria's brand identity to celebrate its artisanal heritage while appealing to contemporary, culturally-aware families seeking authentic food experiences in a modern context.
 caption_images_list: 
   - "cow-and-the-moon-2.png"
 images_folder: "/assets/images/posts/cow-and-the-moon/"
@@ -25,7 +25,7 @@ table_data:
 ---
 
 
-#### The research journey aimed to uncover the authentic look and feel of an Italian gelateria, with a strong emphasis on craftsmanship. This approach resulted in a flexible visual identity that blends modern aesthetics with Italian heritage, creating a cohesive and distinctive look. The design effectively highlights the unique qualities of their gelato by incorporating the brand's story of "Cow JUMPING over the moon".
+#### Designed a contemporary identity system that weaves traditional Italian motifs with modern craftsmanship cues, creating a visual language that honors authenticity while embracing current design sensibilities. This approach reinforces the brand's genuine character while attracting a new generation of gelato enthusiasts.
 
 <!--
 <br>

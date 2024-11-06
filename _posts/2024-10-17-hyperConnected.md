@@ -1,10 +1,10 @@
 ---
-title:  "AWARDED IN THE BALL & DOGGETT DESIGN CONTEST"
+title:  "BALL & DOGGETT AWARD ENTRY"
 metadate: "hide"
 categories: typography
 image: "hyperConnected-0.jpg"
 caption: 
- The brief was to create a 2-5 word phrase about positive world change, for a design competition by Ball & Doggett paper company. The design needed to communicate this message through original typography.
+ Create an experimental showcase that demonstrates the unique possibilities of Riso printing on premium paper stocks, inspiring graphic designers to explore the intersection of traditional printing techniques and contemporary design.
 caption_images_list: 
   - "hyperConnected-1.gif"
 images_folder: "/assets/images/posts/hyperConnected/"
@@ -20,8 +20,7 @@ table_data:
   - title: "Award"
     value: "Selected as one of the winners for 2024 BJ Ball/Ball & Doggett GSM Student Design contest" 
 ---
-#### The typography reflects evolving connections between people influenced by augmented reality, symbolized by interconnected veins. Speech bubbles in negative space are as important as the words, seamlessly integrating elements in hyper-connected contexts. Teal type nods to nostalgic DOS aesthetics, while an orange background emphasizes technological advancements leading to a better future.
-
+#### Engineered a series of graphic experiments that highlight the distinctive textures and color interactions achieved through Riso printing techniques. This systematic exploration serves as both a technical resource and creative inspiration, demonstrating the unique characteristics of each paper stock.
 <!--
 <br>
 ↳ A flexible visual identity adapts to different aspect ratios while maintaining a consistentcy.
