@@ -3,15 +3,21 @@ title:  "COW & MOON BRAND REFRESH"
 metadate: "hide"
 categories: identity
 image: "cow-and-the-moon-10.gif"
-caption: 
-  Revitalize an Italian gelateria's brand identity to celebrate its artisanal heritage while appealing to contemporary, culturally-aware families seeking authentic food experiences in a modern context.
+caption1: 
+  "Challenge: Revitalize an Italian gelateria's brand identity to celebrate its artisanal heritage while appealing to contemporary, culturally-aware families seeking authentic food experiences in a modern context."
+caption2: 
+  ▲ Original brand identity
 caption_images_list: 
   - "cow-and-the-moon-2.png"
 images_folder: "/assets/images/posts/cow-and-the-moon/"
 images:
-  - "cow-and-the-moon-10.gif"
-  - "cow-and-the-moon-22.gif"
-  - "cow-and-the-moon-3.gif"
+  - "cow-and-the-moon-4.jpg"
+  - "cow-and-the-moon-5.jpg"
+  - "cow-and-the-moon-10.gif" 
+  - "cow-and-the-moon-6.jpg"
+  - "cow-and-the-moon-7.png"
+  - "cow-and-the-moon-8.png"
+  - "cow-and-the-moon-9.png"
   - "cow-and-the-moon-11.gif"
 
 
