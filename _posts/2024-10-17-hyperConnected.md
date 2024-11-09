@@ -2,7 +2,7 @@
 title:  "BALL & DOGGETT AWARD ENTRY"
 metadate: "hide"
 categories: typography
-image: "hyperConnected-0.jpg"
+image: "hyperConnected-cover.gif"
 caption1: 
  "Challenge: Create an experimental showcase that demonstrates the unique possibilities of Riso printing on premium paper stocks, inspiring graphic designers to explore the intersection of traditional printing techniques and contemporary design."
 caption2: 

@@ -1,5 +1,5 @@
 ---
-title:  "COW & MOON BRAND REFRESH"
+title:  "COW & THE MOON BRAND REFRESH"
 metadate: "hide"
 categories: identity
 image: "cow-and-the-moon-10.gif"
