@@ -468,6 +468,33 @@ h5 {
   cursor: pointer;
 }
 
+/* This controls the column counts for the landing page which overides default bootstrap
+.card-columns {
+  column-count: 2;  /* Reduces to 3 columns */
+  column-gap: 1.25rem;
+}
+
+/* Make it responsive */
+@media (max-width: 575px) {
+  .card-columns {
+      column-count: 1;  /* Single column on mobile */
+  }
+}
+
+/* Optional: if you want 3 columns on very large screens */
+@media (min-width: 1400px) {
+  .card-columns {
+      column-count: 2;
+  }
+}
+
+/* Ensure proper card spacing */
+.card-columns .card {
+  margin-bottom: 1.25rem;
+  display: inline-block;
+  width: 100%;
+}
+
 .content-area .image-area .image-overlay:hover {
   opacity: 0.5;
   cursor: pointer;
