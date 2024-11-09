@@ -16,15 +16,15 @@ image: "/assets/images/Page/Contact/PublicDomain-Activity-HorseRiding-02.jpg"
 
 
 <br>
-Please send your message to {{site.name}}. 
-<br>We will reply as soon as possible!
+Please send your message to ***Ki***.
+<br>He will reply as soon as possible!
 
 
 <form action="https://formspree.io/{{site.email}}" method="POST">    
 
     <div class="form-group row">
     <div class="col-md-6">
-    <input class="form-control" type="text" name="name" placeholder="Name" required>
+    <input class="form-control" type="text" name="name" placeholder="Your name" required>
     </div>
     <div class="col-md-6">
     <input class="form-control" type="email" name="_replyto" placeholder="Your e-mail address" required>

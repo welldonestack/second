@@ -809,7 +809,7 @@ textarea::placeholder {
 
 #scroll-indicator {
   position: fixed;
-  bottom: 10rem;
+  bottom: 0rem;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
