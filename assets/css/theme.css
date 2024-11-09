@@ -468,9 +468,11 @@ h5 {
   cursor: pointer;
 }
 
-/* This controls the column counts for the landing page which overides default bootstrap
+
+/* This controls the column counts for the landing page which overides default bootstrap*/
+
 .card-columns {
-  column-count: 2;  /* Reduces to 3 columns */
+  column-count: 2;  
   column-gap: 1.25rem;
 }
 
