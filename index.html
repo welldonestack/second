@@ -6,15 +6,30 @@ description: "Designing graphic system that evokes conversation."
 <!-- index.html -->
 
 <section class="bg-transparent pt-0 pb-5" style="padding-left: 3px; padding-right: 3px">
-    <div class="container-page">
-
-      <div class="row justify-content-center" style="margin-left: 0; margin-right:0">
-        <div class="mb-4">
-          <img src="{{ site.baseurl }}/assets/images/KiBuisnessIdentity-01-bg.gif">
+  <div class="container-page">
+    <div class="row justify-content-center" style="margin-left: 0; margin-right:0">
+      <div class="mb-4">
+        <img src="{{ site.baseurl }}/assets/images/KiBuisnessIdentity-01-bg.gif">
+        <div id="scroll-indicator" class="text-center" style="opacity: 0;">
+          <p class="text-gray-600 mb-2">more down there</p>
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            width="24" 
+            height="24" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="currentColor" 
+            stroke-width="2" 
+            stroke-linecap="round" 
+            stroke-linejoin="round"
+            class="chevron-down"
+          >
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
         </div>
       </div>
-
-      <hr>
+    </div>
+    <hr>
       
       <div class="row justify-content-center" style="margin-left: 0; margin-right:0; margin-top:23rem">
         <div class="card-columns">
@@ -68,7 +83,7 @@ description: "Designing graphic system that evokes conversation."
     </div>
 </section>
 
-<script>
+<!-- <script>
     document.addEventListener("DOMContentLoaded", function() {
       // Smooth scroll function with better physics
       function smoothScrollTo(targetY, duration) {
@@ -126,8 +141,29 @@ description: "Designing graphic system that evokes conversation."
           }
       }, 5000);
   });
-</script>
+</script> -->
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+  const scrollIndicator = document.getElementById('scroll-indicator');
+  
+  // Show the indicator after 2 seconds
+  setTimeout(() => {
+    scrollIndicator.classList.add('scroll-indicator-visible');
+  }, 3000);
+  
+  // Hide when scrolling
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 100) {
+      scrollIndicator.classList.add('scroll-indicator-hidden');
+      scrollIndicator.classList.remove('scroll-indicator-visible');
+    } else {
+      scrollIndicator.classList.remove('scroll-indicator-hidden');
+      scrollIndicator.classList.add('scroll-indicator-visible');
+    }
+  });
+});
+</script>
 
 <!-- <script>
   // Define a function to load the p5.js sketch
