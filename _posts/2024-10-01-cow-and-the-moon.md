@@ -19,6 +19,7 @@ images:
   - "cow-and-the-moon-8.png"
   - "cow-and-the-moon-9.png"
   - "cow-and-the-moon-11.gif"
+  - "cow-and-the-moon-12.gif"
 
 
 table_data:
