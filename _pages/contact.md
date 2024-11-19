@@ -17,7 +17,8 @@ image: "/assets/images/Page/Contact/PublicDomain-Activity-HorseRiding-02.jpg"
 
 <br>
 
-Please send your message to ***Ki***([kione.yoon@gmail.com](mailto:kione.yoon@gmail.com)).  
+Please send your message<br> 
+to ***Ki***([kione.yoon@gmail.com](mailto:kione.yoon@gmail.com)).  
 He will reply as soon as possible!
 
 
