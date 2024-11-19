@@ -20,9 +20,9 @@ table_data:
   - title: "Fonts Used"
     value: "Custom typography based on Owen Pro Family"
   - title: "Award"
-    value: "Selected as one of the winners for 2024 BJ Ball/Ball & Doggett GSM Student Design contest" 
+    value: "Selected as one of the winners for 2024 BJ Ball/Ball & Doggett GSM Student Design contest." 
 ---
-#### Engineered a series of graphic experiments that highlight the distinctive textures and color interactions achieved through Riso printing techniques. This systematic exploration serves as both a technical resource and creative inspiration, demonstrating the unique characteristics of each paper stock.
+#### Engineered a series of graphic experiments that highlight the distinctive textures and color interactions achieved through Riso printing techniques. This systematic exploration serves as both a technical resource and creative inspiration, demonstrating the unique characteristics of each paper stock. The work was selected as one of the winners for 2024 BJ Ball/Ball & Doggett GSM Student Design contest. Judges commented 'I enjoyed the graphic approach of this image and it’s something that I would be happy looking at for a month.'
 <!--
 <br>
 ↳ A flexible visual identity adapts to different aspect ratios while maintaining a consistentcy.

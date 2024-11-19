@@ -24,7 +24,7 @@ images:
 
 table_data:
   - title: "Tools Used"
-    value: "Adobe Illustrator, Photoshop, After Effect"
+    value: "Figma, Adobe Illustrator, Photoshop, After Effect"
   - title: "Fonts Used"
     value: "Montecatini Pro Family"
   - title: "Extra Info"
