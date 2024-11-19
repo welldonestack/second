@@ -199,6 +199,12 @@ tr {
   padding-left: 0px;
 }
 
+/* Specific styles for email links */
+a[href^="mailto:"] {
+  text-decoration: underline; /* Add underline only for email links */
+  color: rgb(0, 0, 200); /* Optional: Ensure consistent email link color */
+}
+
 a:hover {
   text-decoration: none;
 }

@@ -32,7 +32,7 @@ table_data:
 ---
 
 
-#### Designed a contemporary identity system that weaves traditional Italian motifs with modern craftsmanship cues, creating a visual language that honors authenticity while embracing current design sensibilities. This approach reinforces the brand's genuine character while attracting a new generation of gelato enthusiasts.
+#### Designed a contemporary identity system that weaves traditional Italian motifs with modern craftsmanship cues, creating a visual language that honors authenticity while embracing current design sensibilities. The curved line motif originates from the brand's original story of a cow jumping over the moon.
 
 <!--
 <br>

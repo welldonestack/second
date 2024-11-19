@@ -16,8 +16,9 @@ image: "/assets/images/Page/Contact/PublicDomain-Activity-HorseRiding-02.jpg"
 
 
 <br>
-Please send your message to ***Ki***.
-<br>He will reply as soon as possible!
+
+Please send your message to ***Ki***([kione.yoon@gmail.com](mailto:kione.yoon@gmail.com)).  
+He will reply as soon as possible!
 
 
 <form action="https://formspree.io/{{site.email}}" method="POST">    
