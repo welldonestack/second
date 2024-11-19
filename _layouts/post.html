@@ -153,7 +153,11 @@ layout: default
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ideal-image-slider/1.5.1/ideal-image-slider.min.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      var slider = new IdealImageSlider.Slider('#slider3');
+      var slider = new IdealImageSlider.Slider({
+      selector: '#slider3',
+      interval: 5000 // Set the time delay (in milliseconds)
+    });
+
       slider.start();
       
       var captionSlider = document.getElementById('caption-slider');
