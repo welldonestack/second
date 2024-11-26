@@ -57,6 +57,22 @@ layout: default
           
         </div>
       </div>
+
+      {% if page.extra_images_list %}
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-12 col-lg-12">
+          <div class="extra-images-grid">
+            {% for image in page.extra_images_list %}
+              <img src="{{ page.images_folder | append: image | relative_url }}" 
+                   alt="Extra Image {{ forloop.index }}" 
+                   class="img-fluid mb-3" 
+                   loading="lazy">
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      
       
       <!-- Second row: Caption and Article -->
       <div class="row justify-content-center">
