@@ -26,7 +26,7 @@ permalink: "/works.html"
         {% for post in pages_list %}
           {% if post.title != null %}
               {% if group == null or group == post.group %}
-                {% include card-post.html %}
+                {% include card-post-index.html %}
               {% endif %}
           {% endif %}
         {% endfor %}
