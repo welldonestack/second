@@ -1,20 +1,19 @@
 <body class="index-page">
     <div class="card card-pin raco">
-        <div class="content-area overlay-link">
-            <!-- Image area with overlay -->
-            <div class="image-area">
-                <!-- Transparent overlay for the image -->
-                <div class="image-overlay">
-                    <a href="{{ post.url | relative_url }}" class="overlay-link"></a>
-                </div>
-                <a href="{{ post.url | relative_url }}">
+        <!-- Wrap the entire card with the <a> tag -->
+        <a href="{{ post.url | relative_url }}" class="overlay-link">
+            <div class="content-area">
+                <!-- Image area with overlay -->
+                <div class="image-area">
                     <img class="card-img" src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ post.images_folder }}{{ post.image | relative_url }}{% endif %}" alt="{{ post.title }}" loading="lazy">
-                </a>
-                <!-- Title area (initially hidden, shown on hover) -->
-                <div class="title-area">
-                    <h5 class="card-title title">{{ post.title }}</h5>
+                    <!-- Transparent overlay for the image -->
+                    <div class="image-overlay"></div>
+                    <!-- Title area (initially hidden, shown on hover) -->
+                    <div class="title-area">
+                        <h5 class="card-title title">{{ post.title }}</h5>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
     </div>
 </body>
