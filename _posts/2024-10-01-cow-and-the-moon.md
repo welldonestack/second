@@ -2,7 +2,7 @@
 title:  "COW & THE MOON BRAND REFRESH"
 metadate: "hide"
 categories: identity
-image: "cow-and-the-moon-10.gif"
+image: "cow-and-the-moon-cover.jpg"
 caption1: 
   "Challenge: Revitalize an Italian gelateria's brand identity to celebrate its artisanal heritage while appealing to contemporary, culturally-aware families seeking authentic food experiences in a modern context."
 caption2: 
@@ -30,7 +30,7 @@ table_data:
 ---
 
 
-#### Designed a contemporary identity system that weaves traditional Italian motifs with modern craftsmanship cues, creating a visual language that honors authenticity while embracing current design sensibilities. The curved line motif originates from the brand's original story of a cow jumping over the moon.
+#### Designed a contemporary identity system that seamlessly blends traditional Italian motifs with modern craftsmanship cues, creating a visual language that honors authenticity while embracing contemporary design sensibilities. The color palette takes inspiration from classic gelato flavors: chocolate, vanilla, macadamia nut, and pistachio. The font Montecatini was chosen for its Italian heritage, adding a refined and timeless feel to the brand. The curved line motif, inspired by the brand's original story of a cow jumping over the moon, also reflects the Art Deco style, celebrating Enmore's iconic architectural heritage, where the gelateria was born.
 
 <!--
 <br>
