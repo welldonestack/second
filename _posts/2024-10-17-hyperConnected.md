@@ -4,7 +4,7 @@ metadate: "hide"
 categories: typography
 image: "hyperConnected-cover.gif"
 caption1: 
- "Challenge: Create an experimental showcase that demonstrates the unique possibilities of Riso printing on premium paper stocks, inspiring graphic designers to explore the intersection of traditional printing techniques and contemporary design."
+ "Challenge: Contestants were asked to create a 3-5 word phrase about the future and a visual expression of their saying that represents it."
 caption2: 
  ▲ Journey to find the best layout
 caption_images_list: 
@@ -22,7 +22,7 @@ table_data:
   - title: "Award"
     value: "Selected as one of the winners for 2024 BJ Ball/Ball & Doggett GSM Student Design contest." 
 ---
-#### Engineered a series of graphic experiments that highlight the distinctive textures and color interactions achieved through Riso printing techniques. This systematic exploration serves as both a technical resource and creative inspiration, demonstrating the unique characteristics of each paper stock. The work was selected as one of the winners for 2024 BJ Ball/Ball & Doggett GSM Student Design contest. Judges commented 'I enjoyed the graphic approach of this image and it’s something that I would be happy looking at for a month.'
+#### The typography reflects evolving connections between people influenced by augmented reality, symbolized by interconnected veins. Speech bubbles in negative space are as important as the words, seamlessly integrating elements in hyper-connected contexts. Teal type nods to nostalgic DOS aesthetics, while an orange background emphasizes technological advancements leading to a better future. The work was selected as one of the winners for 2024 BJ Ball/Ball & Doggett GSM Student Design contest. Judges commented 'I enjoyed the graphic approach of this image and it’s something that I would be happy looking at for a month.'
 <!--
 <br>
 ↳ A flexible visual identity adapts to different aspect ratios while maintaining a consistentcy.
