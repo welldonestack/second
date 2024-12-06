@@ -4,7 +4,7 @@ metadate: "hide"
 categories: identity
 image: "cow-and-the-moon-cover.jpg"
 caption1: 
-  "Challenge: Revitalize an Italian gelateria's brand identity to celebrate its artisanal heritage while appealing to contemporary, culturally-aware families seeking authentic food experiences in a modern context."
+  "Challenge: Revitalize an Italian gelateria’s brand identity to honor its artisanal heritage within a modern context."
 caption2: 
   ▲ Original brand identity
 caption_images_list: 
@@ -33,7 +33,7 @@ table_data:
 ---
 
 
-#### Designed a contemporary identity system that seamlessly blends traditional Italian motifs with modern craftsmanship cues, creating a visual language that honors authenticity while embracing contemporary design sensibilities. The color palette takes inspiration from classic gelato flavors: chocolate, vanilla, macadamia nut, and pistachio. The font Montecatini was chosen for its Italian heritage, adding a refined and timeless feel to the brand. The curved line motif, inspired by the brand's original story of a cow jumping over the moon, also reflects the Art Deco style, celebrating Enmore's iconic architectural heritage, where the gelateria was born.
+#### A contemporary identity system was designed, blending traditional Italian motifs with modern craftsmanship cues to create a visual language that balances authenticity and modernity. The color palette draws inspiration from classic gelato flavors: chocolate, vanilla, macadamia nut, and pistachio. The font Montecatini, chosen for its Italian heritage, adds a refined and timeless touch to the brand. A curved line motif, inspired by the original story of a cow jumping over the moon, reflects the Art Deco style and pays homage to Enmore’s iconic architectural heritage, where the gelateria originated. The motion design incorporates the cow and the moon story, where the cow makes several attempts to jump over the moon and finally succeeds—achieving what was once considered impossible.
 
 <!--
 <br>
