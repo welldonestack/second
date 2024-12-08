@@ -39,7 +39,7 @@ layout: default
           {% if page.images %}
           {% assign image_count = page.images | size %}
           {% if image_count > 1 %}
-            <div id="slider3" class="ideal-image-slider iis-effect-slide">
+            <div id="slider2" class="ideal-image-slider iis-effect-slide">
               {% for image in page.images %}
                 <a data-src="{{ page.images_folder | append: image | relative_url }}" class="iis-slide">
                   <img src="{{ page.images_folder | append: image | relative_url }}" alt="Slide {{ forloop.index }}" class="slider-img"/>
@@ -185,35 +185,20 @@ layout: default
   </section>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ideal-image-slider/1.5.1/ideal-image-slider.min.js"></script>
+  <script src="/assets/js/iis-bullet-nav.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       var slider = new IdealImageSlider.Slider({
-      selector: '#slider3',
-      interval: 5000 // Set the time delay (in milliseconds)
+      selector: '#slider2',
+      interval: 5000, // Set the time delay (in milliseconds)
     });
-
-      slider.start();
-      
+    slider.addBulletNav();
+    slider.start();
       var captionSlider = document.getElementById('caption-slider');
       if (captionSlider) {
         var captionSliderInstance = new IdealImageSlider.Slider('#caption-slider');
         captionSliderInstance.start();
       }
-
-
-    //   // JavaScript to align the container's left margin with the navbar
-    //   var navbar = document.querySelector('.navbar');
-    //   var container = document.querySelector('.container');
-
-    //   // Get the computed left margin of the navbar
-    //   var navbarRightMargin = window.getComputedStyle(navbar).marginRight;
-
-    //   // Calculate the new left margin for the container with -15px offset
-    //   var newRightMargin = parseInt(navbarRightMargin) - 17 + "px";
-
-    //  // Apply the new left margin to the container
-    //   container.style.marginRight = newRightMargin;
-      
-    });
+  });
   </script>
 </body>
