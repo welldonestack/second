@@ -11,8 +11,11 @@ caption_images_list:
   - "hyperConnected-1.gif"
 images_folder: "/assets/images/posts/hyperConnected/"
 images: 
-  - "hyperConnected-2.jpg"
-  - "hyperConnected-3.jpg"
+  - "hyperConnected-extra-01.png"
+
+extra_images_list:
+  - "hyperConnected-cover.gif"
+
   
 table_data:
   - title: "Tools Used"
