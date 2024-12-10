@@ -33,7 +33,7 @@ table_data:
 ---
 
 
-#### The brand identity reposisions the gelato experience from a casual offering to a sophisticated, small luxury. By drawing on the Art Deco architectural heritage of Enmore and weaving a narrative of persistent creativity—symbolized by a cow's determined attempts to jump over the moon—the design elevates the brand's perception. The carefully curated color palette of rich gelato flavors like chocolate, vanilla, macadamia nut, and pistachio, combined with the refined Montecatini font, transforms the visual language from everyday to elegantly aspirational. This strategic design approach repositions the gelato not just as a casual treat, but as a thoughtful, luxurious experience that celebrates craftsmanship, storytelling, and Italian heritage, inviting a discerning new generation of customers to perceive the brand as a premium, artisanal indulgence.
+#### The brand identity repositions the gelato experience from a casual offering to a small luxury. The bold geometric pattern, rooted in Enmore's Art Deco architectural heritage, weaves a narrative of persistent creativity—symbolized by a cow's determined leap over the moon. The color palette of rich gelato flavors like chocolate, vanilla, macadamia nut, and pistachio pairs with the refined Montecatini font to elevate the brand's visual language. This strategic design approach repositions the gelato not just as a casual treat, but as a thoughtful, luxurious experience that celebrates craftsmanship, storytelling, and Italian heritage, inviting a discerning new generation of customers to perceive the brand as a premium, artisanal indulgence.
 
 <!--
 <br>
