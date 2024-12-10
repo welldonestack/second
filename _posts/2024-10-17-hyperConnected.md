@@ -4,7 +4,7 @@ metadate: "hide"
 categories: typography
 image: "hyperConnected-cover.gif"
 caption1: 
- "Challenge: Contestants were asked to create a 3-5 word phrase about the future and a visual expression of their saying that represents it."
+ "Challenge: This contest was hosted by Ball & Doggett, one of Australia's largest paper suppliers. Contestants were challenged to encapsulate their vision of the future in a 2–5 word phrase and express it visually through typography, color, and original graphics."
 caption2: 
  ▲ Journey to find the best layout
 caption_images_list: 
@@ -25,7 +25,7 @@ table_data:
   - title: "Award"
     value: "Selected as one of the winners for 2024 BJ Ball/Ball & Doggett GSM Student Design contest." 
 ---
-#### The typography reflects evolving connections between people influenced by augmented reality, symbolized by interconnected veins. Speech bubbles in negative space are as important as the words, seamlessly integrating elements in hyper-connected contexts. Teal type nods to nostalgic DOS aesthetics, while an orange background emphasizes technological advancements leading to a better future. The work was selected as one of the winners for 2024 BJ Ball/Ball & Doggett GSM Student Design contest. Judges commented 'I enjoyed the graphic approach of this image and it’s something that I would be happy looking at for a month.'
+#### The typography reflects evolving connections between people influenced by augmented reality, symbolized by interconnected veins. Speech bubbles in negative space are as important as the words, seamlessly integrating elements in hyper-connected contexts. Teal type nods to nostalgic DOS aesthetics, while an orange background emphasizes technological advancements leading to a better future. The design was one of the three Trans-Tasman winners of the 2024 BJ Ball/Ball & Doggett GSM Student Design Contest, chosen from nine outstanding local finalists. It showcased exceptional talent from both New Zealand and Australia. The Judges commented 'I enjoyed the graphic approach of this image and it’s something that I would be happy looking at for a month.'
 <!--
 <br>
 ↳ A flexible visual identity adapts to different aspect ratios while maintaining a consistentcy.
