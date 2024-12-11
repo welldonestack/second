@@ -824,7 +824,7 @@ textarea::placeholder {
 
 #scroll-indicator {
   position: fixed;
-  bottom: 0.5rem;
+  bottom: 0.1rem;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -833,7 +833,7 @@ textarea::placeholder {
 
 .chevron-down {
   animation: bounce 2s infinite;
-  color: #666;
+  color: var(--ki-color);
 }
 
 @keyframes bounce {
@@ -850,7 +850,7 @@ textarea::placeholder {
 
 
 .scroll-indicator-visible {
-  opacity: 0.2 !important;
+  opacity: 1 !important;
 }
 
 .scroll-indicator-hidden {
