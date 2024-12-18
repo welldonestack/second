@@ -90,6 +90,25 @@ layout: default
         </video>
       </div>
       {% endif %}
+
+      <!-- Video with Sound and Thumbnail -->
+      {% if page.video_sound %}
+      <div class="post-video" style="margin-top: 1em; width: 100%; max-width: 100%; overflow: hidden;">
+        <video 
+          class="img-fluid" 
+          controls 
+          loop 
+          playsinline 
+          poster="{{ page.images_folder | append: page.video_poster | relative_url }}"
+          loading="lazy"
+          style="width: 100%; height: auto; object-fit: contain;">
+          <source src="{{ page.images_folder | append: page.video_sound | relative_url }}" type="video/mp4">
+          Your browser does not support the video tag. Please view the video
+          <a href="{{ page.images_folder | append: page.video_sound | relative_url }}">here</a>.
+        </video>
+      </div>
+      {% endif %}
+
       
       
       <!-- Second row: Caption and Article -->
